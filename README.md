@@ -48,8 +48,17 @@ The Injected Root Files Manager is a powerful and efficient tool for developers 
 
 - Integrate the library into your app to manage root-level directories.
 
-### 3. **Set Launcher Activity**  
-To enable instant root folder access, set the tool as your app's launcher activity by adding the following XML to your `AndroidManifest.xml`:
+### 3. Update `AndroidManifest.xml`
+- Add necessary permissions and activities:
+
+```xml
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+```
+
+-  **Set `org.koshurboii.InjectedRootFilesManager.MainActivity` as  Launcher Activity** and add `org.koshurboii.InjectedRootFilesManager.KoshurboiiEditPreferenceActivity` : 
 
 ```xml
     <activity
@@ -65,9 +74,9 @@ To enable instant root folder access, set the tool as your app's launcher activi
         android:name="org.koshurboii.InjectedRootFilesManager.KoshurboiiEditPreferenceActivity"/>
 ```
 
-### 4. **Add `<meta-data>` to the App's Main Entry Activity**
+- **Add `<meta-data>` to the App's Main Entry Activity**
 
-To add the `<meta-data>` to the **main entry activity** of your app (where the user lands when opening the app), use the following XML configuration:
+- To add the `<meta-data>` to the **main entry activity** of your app (where the user lands when opening the app), use the following XML configuration:
 
 ```xml
 <activity 
