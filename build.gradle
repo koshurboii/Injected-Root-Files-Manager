@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'com.github.koshurboii'    // Your GitHub username for JitPack
+version = '1.0.0'                  // Library version
+
+repositories {
+    mavenCentral()                 // Add Maven Central repository
+}
+
+dependencies {
+    implementation files('classes.jar')  // Include precompiled JAR
+}
+
+// Task to include classes.dex in the build output
+task includeDex(type: Copy) {
+    from('classes.dex')
+    into("$buildDir/libs")
+}
+
+// Ensure both JAR and DEX are part of the build
+tasks.build.dependsOn includeDex
