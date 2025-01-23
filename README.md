@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/MZjhPmG/20250121-184657.jpg" alt="Koshur Boii Injected Root Files Manager" style="width: 100%; height: auto; border: 0;"/>
 
-An advanced tool for developers to inspect and validate root-level file encryption and security in there Android apps. Created by Abrar Hussain Beigh(Koshur Boii) , this tool seamlessly integrates with APKs to ensure comprehensive security testing.
+An advanced tool for developers, designed to access private app folders in Android apps that are normally difficult for regular users to access without root permissions. However, with this tool, you can efficiently access and manage those folders on **non-rooted devices** to inspect and validate root-level file encryption and security. Created by Abrar Hussain Beigh (Koshur Boii), this tool seamlessly integrates with APKs to ensure comprehensive security testing.
 
 ---
 
