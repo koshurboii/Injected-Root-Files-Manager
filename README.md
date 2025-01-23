@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/MZjhPmG/20250121-184657.jpg" alt="Koshur Boii Injected Root Files Manager" style="width: 100%; height: auto; border: 0;"/>
 
-An advanced tool for developers to validate root-level file encryption and security in Android apps. Created by **Abrar Hussain Beigh**, also known as **Koshur Boii**, this tool seamlessly integrates with APKs for comprehensive security testing.
+An advanced tool for developers to inspect and validate root-level file encryption and security in there Android apps. Created by Abrar Hussain Beigh(Koshur Boii) , this tool seamlessly integrates with APKs to ensure comprehensive security testing.
 
 ---
 
@@ -31,21 +31,13 @@ The Injected Root Files Manager is a powerful and efficient tool for developers 
 ## **How to Use**
 
 ### 1. **Patch File Method**  
-- [Download Patch File](https://github.com/koshurboii/)  
+- [Download Patch File](https://github.com/koshurboii/Injected-Root-Files-Manager/releases/download/v1.0.0/patch_koshurboii_InjectedRootFilesManager.zip)  
 - Use the downloaded patch file with an APK editor on your mobile device.  
 - Bind the patch file with your APK to gain root file access and perform vulnerability testing.
 
 ### 2. **Library Integration**  
 - Download the source code of the library.  
-- Alternatively, add the following dependency to your app's `build.gradle` file:
-
-    ```gradle
-    dependencies {
-        // Placeholder for upcoming version
-        implementation 'org.koshurboii:InjectedRootFilesManager:v1.0.0'
-    }
-    ```
-
+- [Download source code](https://github.com/koshurboii/Injected-Root-Files-Manager/archive/refs/tags/v1.0.0.zip)  
 - Integrate the library into your app to manage root-level directories.
 
 ### 3. Update `AndroidManifest.xml`
