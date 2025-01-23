@@ -7,12 +7,12 @@ An advanced tool for developers, designed to access private app folders in Andro
 ---
 
 ## **Overview**  
-The Injected Root Files Manager is a powerful and efficient tool for developers aiming to test their apps for security vulnerabilities. It enables inspection of root-level directories, ensuring sensitive data is encrypted and protected. This tool is tailored for testing and debugging during the development lifecycle.
+The Injected Root Files Manager is a powerful and efficient tool for developers aiming to test their apps for security vulnerabilities. It enables inspection of root-level directories on **non-rooted devices**, ensuring sensitive data is encrypted and protected. This tool is tailored for testing and debugging during the development lifecycle.
 
 ---
 
 ## **Purpose**  
-- Validate the security of Android apps by inspecting root directories.  
+- Validate the security of Android apps by inspecting root directories on **non-rooted devices**.  
 - Ensure sensitive data is encrypted, hidden, and inaccessible to unauthorized users.  
 - Test compliance with data protection and privacy standards.  
 
